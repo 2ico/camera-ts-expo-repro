@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@expo/webpack-config": "^19.0.0",
+    "expo": "^49.0.3",
+    "expo-camera": "~13.4.4",
+    "expo-image-picker": "~14.3.2",
+    "expo-status-bar": "~1.6.0",
+    "p-timeout": "^6.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.70.6",
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "name": "image-ts-expo"
+}

@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Image TS Test App Repro",
+    "slug": "camera-ts-expo-repro",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
+  }
+}
